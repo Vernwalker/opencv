@@ -163,7 +163,7 @@ services:
       - /volume1/docker/arr-stack/tailscale/tun:/tun
       - /volume1/docker/arr-stack/tailscale/lib:/lib:rw
     environment:
-      - TS_AUTH_KEY=tskey-auth-kTUDa4f7gQ11CNTRL-ay5oRaMGV2Rd11qrv4kK3RQZHQnhyFm5F
+      - TS_AUTH_KEY=tskey-auth-kfiYv5uGXC21CNTRL-ay5oRaMGV2Rd11qrv4kK3RQZHQnhyFm5F
       - TS_STATE_DIR=/tailscale
       - TS_ROUTES=172.17.10.0/24
     network_mode: host
